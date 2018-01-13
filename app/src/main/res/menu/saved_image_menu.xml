@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share_option"
+        android:title="Share"
+        android:icon="@drawable/ic_share_white"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/delete_option"
+        android:title="Save"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.knownow.vyomjain.knownowv2.SavedFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/history"
+                android:text="History"
+                android:textSize="16sp"
+                android:padding="4dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/saved"
+                android:text="Saved"
+                android:textSize="16sp"
+                android:padding="4dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/saved_list"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+</LinearLayout>
