@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_action_bar);
 
-
         selectedFragment = HomeFragment.newInstance();
 
         ConnectivityManager manager = (ConnectivityManager)getSystemService(CONNECTIVITY_SERVICE);
